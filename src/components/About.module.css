@@ -1,0 +1,62 @@
+.container {
+    height: 100%;
+    background: linear-gradient(to right, var(--primary) 30%, var(--background) 30%);
+
+    & > div {
+        height: 100%;
+    }
+
+    div {
+        background: transparent;
+    }
+
+    .profile {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .profile-pic {
+            display: flex;
+            width:  clamp(12rem, 40%, 26rem);
+            /* width: max(40%, 12rem); */
+            aspect-ratio: 1 / 1;
+            border-radius: 50%;
+            border: .75rem solid var(--background);
+            /* box-shadow: 0 0 5px rgba(0,0,0,0.1); */
+    
+            img {
+                width: 100%;
+                height: 100%;
+                border-radius: 50%;
+                object-fit: cover;
+            }
+        }
+    
+        .details {
+            width: 60%;
+            padding-left: min(4.5vw, 4.5rem);
+            /* padding-left: 4.5vw; */
+
+            .content {
+                text-align: left;
+    
+                h1 {
+                    margin-bottom: .2rem;
+                    
+                    span {
+                        color: var(--primary);
+                    }
+                }
+    
+                h3 {
+                    margin-bottom: 1.2rem;
+                }
+    
+                p {
+                    margin-bottom: 2.5rem;
+                }
+            }
+        }
+    }
+
+}
