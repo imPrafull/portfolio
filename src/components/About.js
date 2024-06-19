@@ -16,7 +16,7 @@ export default function About() {
         <Section id="about">
             <MainNavigation style={mainNavStyle}/>
             <div className={classes.container}>
-                <div className={classes.profile + ' content'}>
+                <div className={classes.profile + ' content large'}>
                     <div className={classes['profile-pic']}>
                         <img src={profileImg} alt='profile image' />
                     </div>
@@ -24,9 +24,9 @@ export default function About() {
                         <div className={classes.content}>
                             <h1>Hi! I am <span>Prafull Sakpal</span></h1>
                             <h3>I'm a Front End Developer</h3>
-                            <p>Welcome to my portfolio! I am a passionate Front End Developer aiming to become a Full Stack Developer.
-                                I have a keen interest in creating innovative and user-friendly apps.
-                                My projects highlight my ability to create engaging digital experiences.
+                            <p> Based in Mumbai, India, I am passionate about creating engaging digital experiences.
+                                As I work towards becoming a Full Stack Developer, I focus on crafting innovative solutions.
+                                My projects highlight my ability to create user-friendly applications.
                             </p>
                             <Button>View Resume</Button>
                         </div>
