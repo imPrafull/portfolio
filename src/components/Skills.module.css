@@ -3,13 +3,12 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    align-items: center;
     height: 100%;
     text-align: center;
 
     h1 {
         color: var(--primary);
-        margin-bottom: 1rem;
+        margin-bottom: 4rem;
     }
 
     .skills {
