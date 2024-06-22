@@ -92,6 +92,10 @@ input, textarea {
   &.large {
     width: min(90%, 1200px);
   }
+
+  &.very-large {
+    width: min(90%, 1600px);
+  }
 }
 
 @media screen and (min-width: 768px) {

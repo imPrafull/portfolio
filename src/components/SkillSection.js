@@ -1,9 +1,9 @@
-import classes from './Skills.module.css'
+import classes from './SkillSection.module.css'
 import Section from './Section'
 import Skill from './Skill'
 import { SKILLS } from '../data/skills'
 
-export default function Skills() {
+export default function SkillSection() {
     return (
         <Section id="skills">
             <div className={classes.container + ' content'}>
