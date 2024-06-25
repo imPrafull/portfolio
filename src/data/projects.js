@@ -23,3 +23,36 @@ export const PROJECTS = [
         img: profileImg
     },
 ];
+
+export const MORE_PROJECTS = [
+    {
+        name: "Recipe Book 4",
+        description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam rhoncus condimentum erat, gravida accumsan metus ornare semper. Nunc vulputate viverra leo.`,
+        skills: [ 'Angular', 'HTML' ],
+    },
+    {
+        name: "Recipe Book 5",
+        description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam rhoncus condimentum erat, gravida accumsan metus ornare semper. Nunc vulputate viverra leo.`,
+        skills: [ 'Angular', 'HTML' ],
+    },
+    {
+        name: "Recipe Book 6",
+        description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam rhoncus condimentum erat, gravida accumsan metus ornare semper. Nunc vulputate viverra leo.`,
+        skills: [ 'Angular', 'HTML' ],
+    },
+    {
+        name: "Recipe Book 7",
+        description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam rhoncus condimentum erat, gravida accumsan metus ornare semper. Nunc vulputate viverra leo.`,
+        skills: [ 'Angular', 'HTML' ],
+    },
+    {
+        name: "Recipe Book 8",
+        description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam rhoncus condimentum erat, gravida accumsan metus ornare semper. Nunc vulputate viverra leo.`,
+        skills: [ 'Angular', 'HTML' ],
+    },
+    {
+        name: "Recipe Book 9",
+        description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam rhoncus condimentum erat, gravida accumsan metus ornare semper. Nunc vulputate viverra leo.`,
+        skills: [ 'Angular', 'HTML' ],
+    },
+]

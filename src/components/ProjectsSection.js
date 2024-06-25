@@ -2,6 +2,8 @@ import classes from './ProjectsSection.module.css'
 import Project from './Project'
 import Section from './Section'
 import { PROJECTS } from '../data/projects'
+import { MORE_PROJECTS } from '../data/projects'
+import ProjectCard from './ProjectCard'
 
 export default function ProjectsSection() {
     
@@ -30,6 +32,14 @@ export default function ProjectsSection() {
                         ))}
                 </swiper-container>
             </div>
+            <div className={classes.container + ' content very-large'}>
+            <div className={classes['more-projects']}>
+                {MORE_PROJECTS.map(project => (
+                    <ProjectCard key={project.name} project={project} />
+                ))}
+            </div>
+            </div>
+            <p className={classes.footer}>Designed and Developed By Prafull Sakpal</p>
         </Section>
     )
 }
