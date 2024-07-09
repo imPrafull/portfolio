@@ -11,7 +11,7 @@ const ProjectCard = ({ project }) => {
         <p className={classes['project-description']}>
           {project.description}
         </p>
-        <ul className={classes['project-tags']}>
+        <ul className={classes['project-chips']}>
             {project.skills.map(skill => (
                 <li key={skill}><SkillChip skill={skill} /></li>
             ))}

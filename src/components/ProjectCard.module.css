@@ -1,11 +1,11 @@
 .project-card {
+    display: block;
     background-color: var(--primary-background);
     border-radius: .1rem;
     padding: 2rem;
     text-align: center;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     max-width: 18rem;
-    margin: 1.5rem;
 
     * {
         text-align: center;
@@ -20,15 +20,28 @@
         margin-bottom: 1.5rem;
     }
 
-    .project-tags {
+    .project-chips {
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
         gap: .5rem 1rem;
     }
-  }
-  
-  .project-tag:hover {
-    background-color: #007bff;
-    color: white;
-  }
+}
+
+@media screen and (max-width: 276px) {
+    .project-card .project-chips {
+        gap: .5rem;
+
+        > li > p {
+            padding: .4rem 1rem;
+        }
+    }
+}
+
+@media screen and (max-width: 250px) {
+    .project-card .project-chips {
+        > li > p {
+            padding: .4rem .5rem;
+        }
+    }
+}

@@ -9,7 +9,7 @@ export default function ProjectsSection() {
     
     return (
         <Section id="projects">
-            <div className={classes.container + ' content very-large'}>
+            <div className={classes.container}>
                 <h1>Projects</h1>
                 {/* <ul>
                     {PROJECTS.map(project => (
@@ -18,13 +18,18 @@ export default function ProjectsSection() {
                 </ul> */}
                 <swiper-container style={
                         {
-                        "--swiper-navigation-color": "#fff", 
-                        "--swiper-pagination-color": "#fff"
+                            "--swiper-navigation-color": "var(--primary)", 
+                            "--swiper-pagination-color": "var(--primary)",
+                            "--swiper-navigation-size": "2rem",
                         }
                     } 
                     pagination-clickable="true" 
                     navigation="true" 
-                    className="mySwiper">
+                    className="my-swiper"
+                    keyboard-enabled="true"
+                    keyboard-only-in-viewport="true"
+                    loop="true"
+                >
                         {PROJECTS.map(project => (
                             <swiper-slide key={project.name}>
                                 <Project project={project}/>
@@ -33,11 +38,13 @@ export default function ProjectsSection() {
                 </swiper-container>
             </div>
             <div className={classes.container + ' content very-large'}>
-            <div className={classes['more-projects']}>
+            <ul className={classes['more-projects']}>
                 {MORE_PROJECTS.map(project => (
-                    <ProjectCard key={project.name} project={project} />
+                    <li key={project.name}>
+                        <ProjectCard project={project} />
+                    </li>
                 ))}
-            </div>
+            </ul>
             </div>
             <p className={classes.footer}>Designed and Developed By Prafull Sakpal</p>
         </Section>

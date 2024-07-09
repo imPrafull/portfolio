@@ -2,6 +2,6 @@
     background-color: var(--primary);
     color: var(--primary-contrast);
     font-weight: 700;
-    padding: .82rem 3rem;
+    padding: .82rem clamp(1rem, 4vw, 3rem);
     border-radius: 2rem;
 }
