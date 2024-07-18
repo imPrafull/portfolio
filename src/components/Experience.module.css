@@ -2,7 +2,8 @@
     display: flex;
 
     .time {
-        flex: 0 0 auto;
+        width: 13rem;
+        flex: 0 0 13rem;
         padding-inline: 2rem;
         padding-top: .2rem;
         font-size: .75rem;
@@ -13,7 +14,16 @@
         h4 {
             font-weight: 600;
             margin-top: .2rem;
-            margin-bottom: .75rem;
+        }
+
+        .time-mobile {
+            display: none;
+            font-size: .75rem;
+            font-weight: 300;
+        }
+
+        .description {
+            margin-top: .75rem;
         }
     }
 }
@@ -26,6 +36,22 @@
         .time {
             padding-inline: 0;
             padding-bottom: .4rem;
+            position: absolute;
+            right: 0;
+            text-align: right;
+        }
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .experience {
+        .time {
+            display: none;
+        }
+        
+        .detail .time-mobile {
+            display: block;
+            margin-top: .25rem;
         }
     }
 }

@@ -12,6 +12,11 @@ const mainNavStyle = {
 }
 
 export default function About() {
+
+    const openResume = () => {
+        window.open('https://drive.google.com/file/d/1WR-JkgMEflWxSZZvO6RiekCUBRq1IKbk/view?usp=drive_link', '_blank');
+    };
+
     return (
         <Section id="about">
             <MainNavigation style={mainNavStyle}/>
@@ -28,7 +33,7 @@ export default function About() {
                                 As I work towards becoming a Full Stack Developer, I focus on crafting innovative solutions.
                                 My projects highlight my ability to create user-friendly applications.
                             </p>
-                            <Button>View Resume</Button>
+                            <Button onClick={openResume}>View Resume</Button>
                         </div>
                     </div>
                 </div>

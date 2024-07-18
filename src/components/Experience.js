@@ -7,7 +7,8 @@ export default function Experience({ experience }) {
             <div className={classes.detail}>
                 <h3>{experience.name}</h3>
                 <h4>{experience.position}</h4>
-                <p>{experience.description}</p>
+                <p className={classes['time-mobile']}>{experience.time}</p>
+                <p className={classes.description}>{experience.description}</p>
             </div>
         </div>
     )

@@ -1,20 +1,26 @@
 export const EXPERIENCES = [
     {
-        time: 'july 2020 - dec 2020',
-        name: 'Bitkraft Technologies',
-        position: 'Software Engineer',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam rhoncus condimentum erat, gravida accumsan metus ornare semper. Nunc vulputate viverra leo. Mauris sit amet dapibus diam. Sed rhoncus libero non dolor aliquam molestie. Vestibulum vestibulum.',
+        time: 'July 2019 - Oct 2019',
+        name: 'SPJIMR',
+        position: 'Intern',
+        description: 'SPJIMR is one of the leading business schools in India. My work included Maintaining and updating the official website of the institute using Drupal.',
     },
     {
-        time: 'july 2020 - dec 2020',
-        name: 'Bitkraft Technologies 2',
-        position: 'Software Engineer',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam rhoncus condimentum erat, gravida accumsan metus ornare semper. Nunc vulputate viverra leo. Mauris sit amet dapibus diam. Sed rhoncus libero non dolor aliquam molestie. Vestibulum vestibulum.',
+        time: 'Jan 2020 - March 2021',
+        name: 'Grip Technologies PVT. LTD.',
+        position: 'Ionic Mobile App Developer',
+        description: 'Develop Mobile Applications for addressing the needs and concerns of the clients of FitnessForce. The company\'s portfolio includes clients from the Gym Industry.',
     },
     {
-        time: 'july 2020 - dec 2020',
-        name: 'Bitkraft Technologies 3',
+        time: 'April 2021 - Aug 2022',
+        name: 'Bitkraft Technologies LLP',
         position: 'Software Engineer',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam rhoncus condimentum erat, gravida accumsan metus ornare semper. Nunc vulputate viverra leo. Mauris sit amet dapibus diam. Sed rhoncus libero non dolor aliquam molestie. Vestibulum vestibulum.',
+        description: 'Develop Mobile Applications and Websites for addressing the needs and concerns of the clients of Bitkraft Technologies using Ionic and Angular.',
+    },
+    {
+        time: 'Sept 2022 - Present',
+        name: 'I2E Consulting',
+        position: 'Software Developer',
+        description: 'Develop a Mobile and Web App for a client of I2E Consulting where users can access eBooks and Audio books. The technologies used are Ionic and Angular.',
     },
 ]
