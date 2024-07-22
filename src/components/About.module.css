@@ -1,5 +1,7 @@
 .container {
-    height: 100%;
+    min-height: 100vh;
+    min-height: 100dvh;
+    height: auto;
     background: linear-gradient(to right, var(--primary) 30%, var(--background) 30%);
 
     & > div {
@@ -14,6 +16,9 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        min-height: 100vh;
+        min-height: 100dvh;
+        height: auto;
 
         .profile-pic {
             display: flex;
@@ -72,8 +77,13 @@
         .profile {
             flex-direction: column;
 
-            .details .content {
-                text-align: center;
+            .details {
+                width: 90%;
+                padding-left: 0;
+
+                .content {
+                    text-align: center;
+                }
             }
         }
     }

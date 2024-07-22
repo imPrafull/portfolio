@@ -8,45 +8,49 @@ import ProjectCard from './ProjectCard'
 export default function ProjectsSection() {
     
     return (
-        <Section id="projects">
-            <div className={classes.container}>
-                <h1>Projects</h1>
-                {/* <ul>
-                    {PROJECTS.map(project => (
-                        <Project project={project}/>
-                    ))}
-                </ul> */}
-                <swiper-container style={
-                        {
-                            "--swiper-navigation-color": "var(--primary)", 
-                            "--swiper-pagination-color": "var(--primary)",
-                            "--swiper-navigation-size": "2rem",
-                        }
-                    } 
-                    pagination-clickable="true" 
-                    navigation="true" 
-                    className="my-swiper"
-                    keyboard-enabled="true"
-                    keyboard-only-in-viewport="true"
-                    loop="true"
-                >
+        <>
+            <Section id="projects">
+                <div className={classes.container}>
+                    <h1>Projects</h1>
+                    {/* <ul>
                         {PROJECTS.map(project => (
-                            <swiper-slide key={project.name}>
-                                <Project project={project}/>
-                            </swiper-slide>
+                            <Project project={project}/>
                         ))}
-                </swiper-container>
-            </div>
-            <div className={classes.container + ' content very-large'}>
-            <ul className={classes['more-projects']}>
-                {MORE_PROJECTS.map(project => (
-                    <li key={project.name}>
-                        <ProjectCard project={project} />
-                    </li>
-                ))}
-            </ul>
-            </div>
-            <p className={classes.footer}>Designed and Developed By Prafull Sakpal</p>
-        </Section>
+                    </ul> */}
+                    <swiper-container style={
+                            {
+                                "--swiper-navigation-color": "var(--primary)", 
+                                "--swiper-pagination-color": "var(--primary)",
+                                "--swiper-navigation-size": "2rem",
+                            }
+                        } 
+                        pagination-clickable="true" 
+                        navigation="true" 
+                        className="my-swiper"
+                        keyboard-enabled="true"
+                        keyboard-only-in-viewport="true"
+                        loop="true"
+                    >
+                            {PROJECTS.map(project => (
+                                <swiper-slide key={project.name}>
+                                    <Project project={project}/>
+                                </swiper-slide>
+                            ))}
+                    </swiper-container>
+                </div>
+            </Section>
+            <Section>
+                <div className={classes.container + ' content very-large'}>
+                    <ul className={classes['more-projects']}>
+                        {MORE_PROJECTS.map(project => (
+                            <li key={project.name}>
+                                <ProjectCard project={project} />
+                            </li>
+                        ))}
+                    </ul>
+                </div>
+                <p className={classes.footer}>Designed and Developed By Prafull Sakpal</p>
+            </Section>
+        </>
     )
 }
