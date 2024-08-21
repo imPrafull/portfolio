@@ -19,9 +19,9 @@ const links = [
     },
 ]
 
-export default function MainNavigation({ style }) {
+export default function MainNavigation({ vertical }) {
     return (
-        <nav className={classes['nav-container']} style={style}>
+        <nav className={`${classes['nav-container']} ${vertical ? classes.vertical : ''}`}>
             <ul>
                 {links.map(link => (
                     <li key={link.label}>
