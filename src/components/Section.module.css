@@ -1,7 +1,9 @@
 .section {
+    position: relative;
     width: 100%;
     min-height: 100vh;
     min-height: 100dvh;
     height: auto;
     overflow: visible;
+    border-bottom: 1.5px solid #b9e6ff;
 }

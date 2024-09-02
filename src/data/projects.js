@@ -3,56 +3,53 @@ import profileImg from '../assets/profile-pic.jpg';
 export const PROJECTS = [
     {
         name: "Recipe Book",
-        description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam rhoncus condimentum erat, gravida accumsan metus ornare semper. Nunc vulputate viverra leo. Mauris sit amet dapibus diam. Sed rhoncus libero non dolor aliquam molestie. Vestibulum vestibulum dui nec mi elementum auctor. Vestibulum dictum nibh eu augue tempus,
-            a iaculis libero ullamcorper. Sed ut faucibus ante. Suspendisse molestie neque a nunc molestie interdum. Ut dictum dolor lorem. Aliquam commodo sollicitudin nulla nec elementum.`,
+        description: `An easy-to-use web app that helps you manage your recipes. You can add new recipes, view your collection, create ingredient lists, and quickly add recipes to your shopping list. It also features secure authentication for secure access. The app is developed using Angular and Firebase.`,
         skills: [ 'Angular', 'HTML', 'CSS' ],
         img: profileImg
     },
     {
-        name: "Recipe Book 2",
-        description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam rhoncus condimentum erat, gravida accumsan metus ornare semper. Nunc vulputate viverra leo. Mauris sit amet dapibus diam. Sed rhoncus libero non dolor aliquam molestie. Vestibulum vestibulum dui nec mi elementum auctor. Vestibulum dictum nibh eu augue tempus,
-            a iaculis libero ullamcorper. Sed ut faucibus ante. Suspendisse molestie neque a nunc molestie interdum. Ut dictum dolor lorem. Aliquam commodo sollicitudin nulla nec elementum.`,
-        skills: [ 'Angular', 'HTML', 'CSS' ],
+        name: "MoviesNow",
+        description: `A React web app that showcases a list of movies currently in theaters and upcoming releases, complete with detailed information. It pulls data from The Movie Database API to provide you with the latest movie details, helping you stay up-to-date with your film interests.`,
+        skills: [ 'ReactJS', 'HTML', 'CSS' ],
         img: profileImg
     },
     {
-        name: "Recipe Book 3",
-        description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam rhoncus condimentum erat, gravida accumsan metus ornare semper. Nunc vulputate viverra leo. Mauris sit amet dapibus diam. Sed rhoncus libero non dolor aliquam molestie. Vestibulum vestibulum dui nec mi elementum auctor. Vestibulum dictum nibh eu augue tempus,
-            a iaculis libero ullamcorper. Sed ut faucibus ante. Suspendisse molestie neque a nunc molestie interdum. Ut dictum dolor lorem. Aliquam commodo sollicitudin nulla nec elementum.`,
-        skills: [ 'Angular', 'HTML', 'CSS' ],
+        name: "Task Clip",
+        description: `A web app for managing tasks, featuring secure authentication to keep your data safe. It lets you create, organize, and track tasks with ease. Developed with Svelte on the frontend, it allowed me to explore and learn the framework, while Node.js and MongoDB handle the backend.`,
+        skills: [ 'Svelte', 'Node', 'Express', 'MongoDB' ],
         img: profileImg
     },
 ];
 
 export const MORE_PROJECTS = [
     {
-        name: "Recipe Book 4",
-        description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam rhoncus condimentum erat, gravida accumsan metus ornare semper. Nunc vulputate viverra leo.`,
-        skills: [ 'Angular', 'HTML' ],
+        name: "Tic Tac Toe",
+        description: `A simple and fun app built with React that lets you play the classic game of Tic Tac Toe. Enjoy a quick game against a friend anytime!`,
+        skills: [ 'React', 'JS' ],
     },
     {
-        name: "Recipe Book 5",
+        name: "Project Manager",
         description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam rhoncus condimentum erat, gravida accumsan metus ornare semper. Nunc vulputate viverra leo.`,
-        skills: [ 'Angular', 'HTML' ],
+        skills: [ 'React', 'JS' ],
     },
     {
-        name: "Recipe Book 6",
+        name: "Shopping Cart",
         description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam rhoncus condimentum erat, gravida accumsan metus ornare semper. Nunc vulputate viverra leo.`,
-        skills: [ 'Angular', 'HTML' ],
+        skills: [ 'React', 'JS' ],
     },
     {
-        name: "Recipe Book 7",
+        name: "Placepicker",
         description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam rhoncus condimentum erat, gravida accumsan metus ornare semper. Nunc vulputate viverra leo.`,
-        skills: [ 'Angular', 'HTML' ],
+        skills: [ 'React', 'JS' ],
     },
     {
-        name: "Recipe Book 8",
+        name: "React Quiz",
         description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam rhoncus condimentum erat, gravida accumsan metus ornare semper. Nunc vulputate viverra leo.`,
-        skills: [ 'Angular', 'HTML' ],
+        skills: [ 'React', 'JS' ],
     },
     {
-        name: "Recipe Book 9",
+        name: "Event Manager",
         description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam rhoncus condimentum erat, gravida accumsan metus ornare semper. Nunc vulputate viverra leo.`,
-        skills: [ 'Angular', 'HTML' ],
+        skills: [ 'React', 'JS' ],
     },
 ]

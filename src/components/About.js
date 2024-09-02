@@ -17,13 +17,15 @@ export default function About() {
     };
 
     const handleMenuClick = () => {
-        setshowMobileNav(isShowMobileNav => !isShowMobileNav)
+        if (window.innerWidth < 650) {
+            setshowMobileNav(isShowMobileNav => !isShowMobileNav)
+        }
     }
 
     return (
         <Section id="about">
             <div className={`${classes['nav-container']} ${showMobileNav ? classes['mobile-show'] : ''}`}>
-                <MainNavigation vertical={showMobileNav} />
+                <MainNavigation vertical={showMobileNav} onLinkClick={handleMenuClick} />
             </div>
             <div className={classes.container}>
                 <button className={classes.menu} onClick={handleMenuClick}>

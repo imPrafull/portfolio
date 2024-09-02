@@ -16,26 +16,28 @@
             }
         }
     }
-    
-    &.vertical {
-        height: 100%;
+}
 
+@media screen and (min-width: 1224px) {
+    .nav-container {
+        padding-inline: 0;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .vertical {
+        height: 100%;
+    
         ul {
             height: 100%;
             flex-direction: column;
             justify-content: center;
             align-items: center;
             background-color: var(--background);
-
+    
             li {
                 margin: 1rem;
             }
         }
-    }
-}
-
-@media screen and (min-width: 1224px) {
-    .nav-container {
-        padding-inline: 0;
     }
 }
