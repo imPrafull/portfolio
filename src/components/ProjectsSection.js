@@ -39,7 +39,7 @@ export default function ProjectsSection() {
                     </swiper-container>
                 </div>
             </Section>
-            <Section>
+            <Section id="projects">
                 <div className={classes.container + ' content very-large'}>
                     <ul className={classes['more-projects']}>
                         {MORE_PROJECTS.map(project => (

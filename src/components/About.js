@@ -1,36 +1,17 @@
-import { useState } from 'react';
-
 import classes from './About.module.css'
 import Button from './Button'
 import Section from './Section'
 import profileImg from '../assets/profile-pic.jpg';
-import MainNavigation from './MainNavigation';
-import menuImg from '../assets/menu.svg'
-import closeImg from '../assets/close.svg'
 
 export default function About() {
-
-    const [showMobileNav, setshowMobileNav] = useState(false)
 
     const openResume = () => {
         window.open('https://drive.google.com/file/d/1WR-JkgMEflWxSZZvO6RiekCUBRq1IKbk/view?usp=drive_link', '_blank');
     };
 
-    const handleMenuClick = () => {
-        if (window.innerWidth < 650) {
-            setshowMobileNav(isShowMobileNav => !isShowMobileNav)
-        }
-    }
-
     return (
         <Section id="about">
-            <div className={`${classes['nav-container']} ${showMobileNav ? classes['mobile-show'] : ''}`}>
-                <MainNavigation vertical={showMobileNav} onLinkClick={handleMenuClick} />
-            </div>
             <div className={classes.container}>
-                <button className={classes.menu} onClick={handleMenuClick}>
-                    <img src={showMobileNav ? closeImg : menuImg} alt='menu' />
-                </button>
                 <div className={classes.profile + ' content large'}>
                     <div className={classes['profile-pic']}>
                         <img src={profileImg} alt='profile image' />

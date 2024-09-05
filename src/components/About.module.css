@@ -1,8 +1,3 @@
-.nav-container {
-    position: absolute;
-    top: 5%;
-    right: 8%;
-}
 
 .container {
     min-height: 100vh;
@@ -14,18 +9,6 @@
         height: 100%;
     }
 
-    .menu {
-        display: none !important;
-        position: fixed;
-        right: 1rem;
-        top: 1rem;
-        z-index: 10;
-        background-color: var(--background);
-        padding: .2rem .4rem;
-        display: flex;
-        border-radius: .2rem;
-        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    }
 
     div {
         background: transparent;
@@ -103,26 +86,6 @@
                     text-align: center;
                 }
             }
-        }
-    }
-}
-
-@media screen and (max-width: 650px) {
-    .container .menu {
-        display: flex !important;
-    }
-
-    .nav-container {
-        display: none;
-
-        &.mobile-show {
-            display: block;
-            position: fixed;
-            top: 0;
-            right: 0;
-            z-index: 10;
-            width: 100%;
-            height: 100%;
         }
     }
 }

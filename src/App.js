@@ -33,9 +33,7 @@ function App() {
 
   return (
     <div className="App">
-      <div className={`${classes['nav-container']} ${showNav ? classes['show'] : ''}`}>
-        <MainNavigation />
-      </div>
+      <MainNavigation />
       <About />
       <SkillSection />
       <ExperienceSection />
