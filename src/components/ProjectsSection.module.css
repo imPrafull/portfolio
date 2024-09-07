@@ -3,12 +3,12 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    min-height: calc(100vh - 4rem);
-    min-height: calc(100dvh - 4rem);
+    min-height: calc(100vh);
+    min-height: calc(100dvh);
     height: auto;
     max-width: 1400px;
     margin: 0 auto;
-    margin-top: 4rem;
+    padding-block: 4.5rem 4rem;
 
     ul {
         list-style: none;

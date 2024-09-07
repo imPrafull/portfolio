@@ -108,7 +108,7 @@
     }
 }
 
-@media screen and (max-width: 680px) {
+@media screen and (max-width: 680px), (max-height: 500px) {
     .nav {
         width: 100%;
         background-color: transparent;
@@ -151,5 +151,11 @@
         .nav-links.active {
             display: flex;
         }
+    }
+}
+
+@media screen and (max-height: 600px) {
+    .nav.visible {
+        top: 1rem;
     }
 }

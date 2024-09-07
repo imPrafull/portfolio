@@ -67,7 +67,7 @@
     }
 }
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 680px) {
     .container {
         background: linear-gradient(to bottom, var(--primary) 30%, var(--background) 30%);
         
