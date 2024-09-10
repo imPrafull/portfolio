@@ -1,5 +1,4 @@
 import classes from './Project.module.css'
-import { PROJECTS } from '../data/projects'
 import SkillChip from './SkillChip'
 import Button from './Button'
 

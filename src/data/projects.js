@@ -1,23 +1,23 @@
-import profileImg from '../assets/profile-pic.jpg';
+import taskclipImg from '../assets/projects/taskclip.png';
 
 export const PROJECTS = [
     {
         name: "Recipe Book",
         description: `An easy-to-use web app that helps you manage your recipes. You can add new recipes, view your collection, create ingredient lists, and quickly add recipes to your shopping list. It also features secure authentication for secure access. The app is developed using Angular and Firebase.`,
         skills: [ 'Angular', 'HTML', 'CSS' ],
-        img: profileImg
+        img: taskclipImg
     },
     {
         name: "MoviesNow",
         description: `A React web app that showcases a list of movies currently in theaters and upcoming releases, complete with detailed information. It pulls data from The Movie Database API to provide you with the latest movie details, helping you stay up-to-date with your film interests.`,
         skills: [ 'ReactJS', 'HTML', 'CSS' ],
-        img: profileImg
+        img: taskclipImg
     },
     {
         name: "Task Clip",
         description: `A web app for managing tasks, featuring secure authentication to keep your data safe. It lets you create, organize, and track tasks with ease. Developed with Svelte on the frontend, it allowed me to explore and learn the framework, while Node.js and MongoDB handle the backend.`,
-        skills: [ 'Svelte', 'Node', 'Express', 'MongoDB' ],
-        img: profileImg
+        skills: [ 'Svelte', 'Node', 'MongoDB' ],
+        img: taskclipImg
     },
 ];
 
