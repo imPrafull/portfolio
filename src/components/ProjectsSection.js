@@ -38,18 +38,18 @@ export default function ProjectsSection() {
                             ))}
                     </swiper-container>
                 </div>
-            </Section>
-            <Section id="projects">
-                <div className={classes.container + ' content very-large'}>
-                    <ul className={classes['more-projects']}>
-                        {MORE_PROJECTS.map(project => (
-                            <li key={project.name}>
-                                <ProjectCard project={project} />
-                            </li>
-                        ))}
-                    </ul>
-                </div>
-                <p className={classes.footer}>Designed and Developed By Prafull Sakpal</p>
+                <Section id="projects">
+                    <div className={classes.container + ' content very-large'}>
+                        <ul className={classes['more-projects']}>
+                            {MORE_PROJECTS.map(project => (
+                                <li key={project.name}>
+                                    <ProjectCard project={project} />
+                                </li>
+                            ))}
+                        </ul>
+                    </div>
+                    <p className={classes.footer}>Designed and Developed By Prafull Sakpal</p>
+                </Section>
             </Section>
         </>
     )

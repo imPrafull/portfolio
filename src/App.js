@@ -1,7 +1,5 @@
 import { register } from 'swiper/element/bundle';
-import { useEffect, useState } from 'react';
 
-import classes from './App.module.css'
 import About from './components/About';
 import ExperienceSection from './components/ExperienceSection';
 import MainNavigation from './components/MainNavigation';
@@ -12,25 +10,6 @@ import SkillSection from './components/SkillSection';
 register();
 
 function App() {
-  const [showNav, setShowNav] = useState(false);
-
-  useEffect(() => {
-    const handleScroll = () => {
-      const firstSectionHeight = document.getElementById('about').offsetHeight;
-      if (window.scrollY >= firstSectionHeight) {
-        setShowNav(true);
-      } else {
-        setShowNav(false);
-      }
-    };
-
-    window.addEventListener('scroll', handleScroll);
-
-    return () => {
-      window.removeEventListener('scroll', handleScroll);
-    };
-  }, []);
-
   return (
     <div className="App">
       <MainNavigation />
