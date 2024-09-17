@@ -42,9 +42,7 @@ export default function ProjectsSection() {
                     <div className={classes.container + ' content very-large'}>
                         <ul className={classes['more-projects']}>
                             {MORE_PROJECTS.map(project => (
-                                <li key={project.name}>
-                                    <ProjectCard project={project} />
-                                </li>
+                                <ProjectCard key={project.name} project={project} />
                             ))}
                         </ul>
                     </div>

@@ -1,21 +1,21 @@
 
 import classes from './ProjectCard.module.css'
-import SkillChip from './SkillChip';
 
 const ProjectCard = ({ project }) => {
     return (
-      <a className={classes['project-card']}>
-        <h4 className={classes['project-title']}>
-            {project.name}
-        </h4>
-        <p className={classes['project-description']}>
-          {project.description}
-        </p>
-        <ul className={classes['project-chips']}>
-            {project.skills.map(skill => (
-                <li key={skill}><SkillChip skill={skill} /></li>
-            ))}
-        </ul>
+      <a className={classes.card}>
+        <div className={classes['card-image-container']}>
+          {project.img ? (
+            <img src={project.img} alt={project.name} className={classes['card-image']} />
+          ) : (
+            <div className={classes['card-image']}>Image placeholder</div>
+          )}
+          <span className={classes.label}>{project.skills[0]}</span>
+        </div>
+        <div className={classes['card-content']}>
+          <h2 className={classes.headline}>{project.name}</h2>
+          <p className={classes.content}>{project.description}</p>
+        </div>
       </a>
     );
   };
