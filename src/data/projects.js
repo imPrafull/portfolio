@@ -2,6 +2,11 @@ import taskclipImg from '../assets/projects/taskclip.jpg';
 import moviesNowImg from '../assets/projects/movies-now.jpeg';
 import recipeBookImg from '../assets/projects/recipe-book.jpeg';
 import ticTacToeImg from '../assets/projects/tic-tac-toe.png';
+import projectManagerImg from '../assets/projects/project-manager.png';
+import shoppingCartImg from '../assets/projects/shopping-cart.png';
+import placepickerImg from '../assets/projects/placepicker.png';
+import reactQuizImg from '../assets/projects/react-quiz.png';
+import eventManagerImg from '../assets/projects/event-manager.png';
 
 export const PROJECTS = [
     {
@@ -33,32 +38,32 @@ export const MORE_PROJECTS = [
     },
     {
         name: "Project Manager",
-        description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam rhoncus condimentum erat, gravida accumsan metus ornare semper. Nunc vulputate viverra leo.`,
+        description: `A simple and fun app built with React that lets you play the classic game of Tic Tac Toe.`,
         skills: [ 'React', 'JS' ],
-        img: ticTacToeImg,
+        img: projectManagerImg,
     },
     {
         name: "Shopping Cart",
-        description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam rhoncus condimentum erat, gravida accumsan metus ornare semper. Nunc vulputate viverra leo.`,
+        description: `A simple and fun app built with React that lets you play the classic game of Tic Tac Toe.`,
         skills: [ 'React', 'JS' ],
-        img: ticTacToeImg,
+        img: shoppingCartImg,
     },
     {
         name: "Placepicker",
-        description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam rhoncus condimentum erat, gravida accumsan metus ornare semper. Nunc vulputate viverra leo.`,
+        description: `A simple and fun app built with React that lets you play the classic game of Tic Tac Toe.`,
         skills: [ 'React', 'JS' ],
-        img: ticTacToeImg,
+        img: placepickerImg,
     },
     {
         name: "React Quiz",
-        description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam rhoncus condimentum erat, gravida accumsan metus ornare semper. Nunc vulputate viverra leo.`,
+        description: `A simple and fun app built with React that lets you play the classic game of Tic Tac Toe.`,
         skills: [ 'React', 'JS' ],
-        img: ticTacToeImg,
+        img: reactQuizImg,
     },
     {
         name: "Event Manager",
-        description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam rhoncus condimentum erat, gravida accumsan metus ornare semper. Nunc vulputate viverra leo.`,
+        description: `A simple and fun app built with React that lets you play the classic game of Tic Tac Toe.`,
         skills: [ 'React', 'JS' ],
-        img: ticTacToeImg,
+        img: eventManagerImg,
     },
 ]

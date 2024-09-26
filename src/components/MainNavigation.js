@@ -37,8 +37,6 @@ const NavMenu = () => {
         const firstSectionTop = firstSection.offsetTop + remToPx(6.5);
         const secondSectionTop = secondSection.offsetTop;
 
-        console.log({ menuState, scrollPosition, firstSectionTop, secondSectionTop });
-
         if (scrollPosition <= firstSectionTop) {
           setMenuState("visible");
         } else if (
