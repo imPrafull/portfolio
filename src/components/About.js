@@ -5,8 +5,10 @@ import profileImg from '../assets/profile-pic.jpg';
 
 export default function About() {
 
-    const openResume = () => {
-        window.open('https://drive.google.com/file/d/1WR-JkgMEflWxSZZvO6RiekCUBRq1IKbk/view?usp=drive_link', '_blank');
+    function openResume() {
+        const resumeUrl = process.env.PUBLIC_URL + '/resume.pdf'
+        // const resumeUrl = 'https://drive.google.com/file/d/1WR-JkgMEflWxSZZvO6RiekCUBRq1IKbk/view?usp=drive_link'
+        window.open(resumeUrl, '_blank');
     };
 
     return (

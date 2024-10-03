@@ -3,6 +3,11 @@ import SkillChip from './SkillChip'
 import Button from './Button'
 
 export default function Project({ project }) {
+
+    function openUrl(url) {
+        window.open(url, '_blank');
+    }
+
     return (
         <div className={classes.project}>
             <img className={classes['project-img']} src={project.img} alt={project.name}></img>
@@ -18,8 +23,8 @@ export default function Project({ project }) {
                     {project.description}
                 </p>
                 <div className={classes.actions}>
-                    <div><Button>Visit</Button></div>
-                    <div><Button>View Code</Button></div>
+                    <div><Button onClick={() => openUrl(project.demoLink)}>Visit</Button></div>
+                    <div><Button onClick={() => openUrl(project.githubLink)}>View Code</Button></div>
                 </div>
             </div>
         </div>

@@ -16,6 +16,11 @@
         top: 2.5rem;
         transform: translateY(0);
         opacity: 1;
+        background-color: transparent;
+
+        .nav-links {
+            background-color: transparent;
+        }
     }
 
     &.hidden {
@@ -47,7 +52,7 @@
                 position: relative;
                 font-weight: 500;
                 padding: 1.25rem 0px;
-                transition: 300ms 200ms;
+                transition: 300ms;
 
                 &.active {
                     color: var(--primary);
@@ -65,7 +70,7 @@
                 }
     
                 &::before {
-                    transition: 300ms 200ms;
+                    transition: 300ms;
                     height: 5px;
                     content: "";
                     position: absolute;
@@ -143,7 +148,7 @@
             top: -1rem;
             left: 0;
             right: 0;
-            background-color: var(--background);
+            background-color: var(--background) !important;
             padding: 20px;
             box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
         }

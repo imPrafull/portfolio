@@ -3,7 +3,14 @@
     min-height: 100vh;
     min-height: 100dvh;
     height: auto;
-    background: linear-gradient(to right, var(--primary) 30%, var(--background) 30%);
+    background: linear-gradient(
+        to right,
+        var(--primary-dark) 0%,
+        var(--primary-500) 20%,
+        var(--primary-200) 45%,
+        var(--primary-background) 65%,   
+        var(--background) 100%   
+      );
 
     & > div {
         height: 100%;
@@ -69,7 +76,14 @@
 
 @media screen and (max-width: 680px) {
     .container {
-        background: linear-gradient(to bottom, var(--primary) 30%, var(--background) 30%);
+        background: linear-gradient(
+            to bottom,
+            var(--primary-dark) 0%,
+            var(--primary-500) 20%,
+            var(--primary-200) 45%,
+            var(--primary-background) 65%,   
+            var(--background) 100%   
+          );
         
         * {
             text-align: center;
@@ -78,9 +92,14 @@
         .profile {
             flex-direction: column;
 
+            .profile-pic {
+                border: .5rem solid var(--background);
+            }
+
             .details {
                 width: 90%;
                 padding-left: 0;
+                margin-top: 2rem;
 
                 .content {
                     text-align: center;

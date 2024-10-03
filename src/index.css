@@ -1,8 +1,11 @@
 :root {
+  --primary-dark: #0f56be;
   --primary: #0F83FF;
+  --primary-500: #28a2ff;
   --primary-light: #50C1FF;
-  --primary-contrast: #FFFFFF;
+  --primary-200: #b9e6ff;
   --primary-background: #D7F0FF;
+  --primary-contrast: #FFFFFF;
 
   --background: #EDF9FF;
   --text: #161616;
