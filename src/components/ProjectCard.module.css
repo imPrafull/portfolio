@@ -6,6 +6,10 @@
     width: 100%;
     max-width: 300px;
     justify-self: center;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
   }
 
   .card-image-container {
@@ -18,12 +22,6 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
-    background-color: var(--primary-200);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: var(--primary);
-    font-size: 0.875rem;
   }
 
   .label {
