@@ -5,11 +5,13 @@
     height: auto;
     background: linear-gradient(
         to right,
-        var(--primary-dark) 0%,
-        var(--primary-500) 20%,
-        var(--primary-200) 45%,
-        var(--primary-background) 65%,   
-        var(--background) 100%   
+        var(--primary-800) 0%,
+        var(--primary-600) 15%,
+        var(--primary-400) 30%,
+        var(--primary-300) 45%,
+        var(--primary-200) 60%,
+        var(--primary-100) 80%,   
+        var(--primary-50) 100%   
       );
 
     & > div {
@@ -78,11 +80,13 @@
     .container {
         background: linear-gradient(
             to bottom,
-            var(--primary-dark) 0%,
-            var(--primary-500) 20%,
-            var(--primary-200) 45%,
-            var(--primary-background) 65%,   
-            var(--background) 100%   
+            var(--primary-800) 0%,
+            var(--primary-600) 15%,
+            var(--primary-400) 30%,
+            var(--primary-300) 45%,
+            var(--primary-200) 60%,
+            var(--primary-100) 80%,   
+            var(--primary-50) 100%  
           );
         
         * {
