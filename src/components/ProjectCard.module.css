@@ -2,7 +2,7 @@
     background-color: var(--primary-background);
     border-radius: 0.5rem;
     overflow: hidden;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    box-shadow: var(--box-shadow);
     width: 100%;
     max-width: 300px;
     justify-self: center;
@@ -33,6 +33,7 @@
     font-size: 0.75rem;
     padding: 0.25rem 0.5rem;
     border-radius: 9999px;
+    box-shadow: var(--box-shadow);
   }
 
   .card-content {

@@ -4,5 +4,6 @@
     border-radius: 1rem;
     width: fit-content;
     padding: .4rem 1.5rem;
+    box-shadow: var(--box-shadow);
     cursor: default;
 }
