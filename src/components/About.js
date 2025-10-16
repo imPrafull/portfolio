@@ -21,10 +21,8 @@ export default function About() {
                     <div className={classes.details}>
                         <div className={classes.content}>
                             <h1>Hi! I am <span>Prafull Sakpal</span></h1>
-                            <h3>I'm a Front End Developer</h3>
-                            <p> Based in Mumbai, India, I am passionate about creating engaging digital experiences.
-                                As I work towards becoming a Full Stack Developer, I focus on crafting innovative solutions.
-                                My projects highlight my ability to create user-friendly applications.
+                            <h3>I'm a Software Developer</h3>
+                            <p> Based in Mumbai, India, I enjoy building digital experiences that are simple, useful, and engaging. I like finding new ways to solve problems and create smooth, user-friendly applications. I'm also growing my skills across the full stack to build better products from start to finish.
                             </p>
                             <Button onClick={openResume}>View Resume</Button>
                         </div>

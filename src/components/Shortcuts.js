@@ -12,7 +12,7 @@ const SHORTCUTS = [
         label: 'Github',
     },
     {
-        link: 'https://github.com/imPrafull',
+        link: 'https://linkedin.com/in/prafullsakpal',
         backgroundColor: '#0A66C2',
         icon: linkedInIcon,
         label: 'Linkedin',

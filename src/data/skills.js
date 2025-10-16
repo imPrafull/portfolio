@@ -15,16 +15,20 @@ export const SKILLS = [
         name: 'Angular'
     },
     {
-        img: ionic,
-        name: 'Ionic'
-    },
-    {
-        img: capacitor,
-        name: 'Capacitor'
-    },
-    {
         img: reactjs,
         name: 'React'
+    },
+    {
+        img: nodejs,
+        name: 'Node.js'
+    },
+    {
+        img: mongodb,
+        name: 'MongoDB'
+    },
+    {
+        img: ionic,
+        name: 'Ionic'
     },
     {
         img: typescript,
@@ -35,12 +39,8 @@ export const SKILLS = [
         name: 'HTML/CSS'
     },
     {
-        img: nodejs,
-        name: 'Node.js'
-    },
-    {
-        img: mongodb,
-        name: 'MongoDB'
+        img: capacitor,
+        name: 'Capacitor'
     },
     {
         img: electron,
