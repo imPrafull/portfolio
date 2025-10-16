@@ -16,7 +16,7 @@ export default function About() {
             <div className={classes.container}>
                 <div className={classes.profile + ' content large'}>
                     <div className={classes['profile-pic']}>
-                        <img src={profileImg} alt='profile image' />
+                        <img src={profileImg} alt='profile' />
                     </div>
                     <div className={classes.details}>
                         <div className={classes.content}>

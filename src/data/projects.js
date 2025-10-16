@@ -11,10 +11,10 @@ import eventManagerImg from '../assets/projects/event-manager.png';
 export const PROJECTS = [
     {
         name: "Recipe Book",
-        description: `An easy-to-use web app that helps you manage your recipes. You can add new recipes, view your collection, create ingredient lists, and quickly add recipes to your shopping list. It also features secure authentication for secure access. The app is developed using Angular and Firebase.`,
-        skills: [ 'Angular', 'HTML', 'CSS' ],
+        description: `An easy-to-use web app that helps you manage your recipes. You can add new recipes, view your collection, create ingredient lists, and quickly add recipes to your shopping list. It also features secure authentication for secure access. The app is developed using Angular, Node.js and MongoDB.`,
+        skills: [ 'Angular', 'Node', 'MongoDB' ],
         img: recipeBookImg,
-        demoLink: 'https://recipe-and-shopping-61dca.web.app/',
+        demoLink: 'https://recipebook-ag.netlify.app/',
         githubLink: 'https://github.com/imPrafull/Recipe-Book',
     },
     {
