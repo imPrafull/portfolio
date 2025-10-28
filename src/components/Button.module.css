@@ -1,0 +1,8 @@
+.btn {
+    background-color: var(--primary);
+    color: var(--primary-contrast);
+    font-weight: 700;
+    padding: .82rem clamp(1.5rem, 4vw, 3rem);
+    border-radius: 2rem;
+    box-shadow: var(--box-shadow);
+}

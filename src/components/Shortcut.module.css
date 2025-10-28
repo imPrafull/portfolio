@@ -1,0 +1,38 @@
+.shortcut-btn {
+    display: flex;
+    width: 10rem;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 2rem;
+    padding-left: 1rem;
+    padding-top: .375rem;
+    padding-bottom: .375rem;
+    border: 1px;
+    border-bottom-left-radius: .5rem;
+    border-top-left-radius: .5rem;
+    margin-bottom: .375rem;
+    position: relative;
+    right: -6.2rem;
+    transition: right 1s;
+    box-shadow: var(--box-shadow-reverse);
+
+    .icon {
+        display: inline-block;
+        width: 2rem;
+        height: 2rem;
+        background-size: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        filter: brightness(0) saturate(100%) invert(100%) sepia(100%) saturate(0%) hue-rotate(67deg) brightness(110%) contrast(102%);
+    }
+
+    .label {
+        color: var(--primary-contrast);
+        margin-left: 1rem;
+    }
+}
+
+.shortcut-btn:hover {
+    right: -10px;
+    transition: right 1s;
+}

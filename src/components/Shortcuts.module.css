@@ -1,0 +1,6 @@
+.shortcuts {
+    position: fixed;
+    z-index: 10;
+    bottom: 1rem;
+    right: 0;
+}

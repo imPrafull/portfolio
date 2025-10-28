@@ -1,0 +1,57 @@
+.experience {
+    display: flex;
+
+    .time {
+        width: 13rem;
+        flex: 0 0 13rem;
+        padding-inline: 2rem;
+        padding-top: .2rem;
+        font-size: .75rem;
+        font-weight: 300;
+    }
+
+    .detail {
+        h4 {
+            font-weight: 600;
+            margin-top: .2rem;
+        }
+
+        .time-mobile {
+            display: none;
+            font-size: .75rem;
+            font-weight: 300;
+        }
+
+        .description {
+            margin-top: .75rem;
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .experience {
+        flex-direction: column;
+        padding-left: 2rem;
+        
+        .time {
+            padding-inline: 0;
+            padding-bottom: .4rem;
+            position: absolute;
+            right: 0;
+            text-align: right;
+        }
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .experience {
+        .time {
+            display: none;
+        }
+        
+        .detail .time-mobile {
+            display: block;
+            margin-top: .25rem;
+        }
+    }
+}

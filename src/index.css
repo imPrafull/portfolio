@@ -1,0 +1,140 @@
+:root {
+  --primary-dark: #0f56be;
+  --primary: #0F83FF;
+  --primary-light: #50C1FF;
+  --primary-background: #D7F0FF;
+  --primary-contrast: #FFFFFF;
+
+  --background: #EDF9FF;
+  --text: #161616;
+
+  --primary-50: #edf9ff;
+  --primary-100: #d7f0ff;
+  --primary-200: #b9e6ff;
+  --primary-300: #88d8ff;
+  --primary-400: #50c1ff;
+  --primary-500: #28a2ff;
+  --primary-600: #0f83ff;
+  --primary-700: #0a6beb;
+  --primary-800: #0f56be;
+  --primary-900: #134b95;
+  --primary-950: #112e5a;
+
+  --box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.06);
+  --box-shadow-reverse: -6px 4px 6px rgba(0, 0, 0, 0.1), -3px 1px 3px rgba(0, 0, 0, 0.06);
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  background-color: var(--background);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html, body, * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+  color: var(--text);
+}
+
+html, body {
+  font-size: 100%;
+}
+
+section {
+  background-color: var(--background);
+}
+
+a {
+  color: var(--primary);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  text-align: left;
+}
+
+h1 {
+  font-size: 1.625rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+h3 {
+  font-size: 1.375rem;
+}
+
+h4 {
+  font-size: 1.25rem;
+}
+
+h5 {
+  font-size: 1.125rem;
+  font-weight: 600;
+}
+
+h6 {
+  font-weight: 600;
+}
+
+h6, p {
+  font-size: 1rem;
+}
+
+button {
+  outline: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+  -webkit-tap-highlight-color: transparent;
+}
+
+input, textarea {
+  box-shadow: 0 0 0 30px var(--item-background) inset !important;
+  -webkit-box-shadow: 0 0 0 30px var(--item-background) inset !important;
+  outline: none;
+  font-size: 1rem;
+}
+
+.content {
+  width: min(90%, 1000px);
+  margin: 0 auto;
+
+  &.large {
+    width: min(90%, 1200px);
+  }
+
+  &.very-large {
+    width: min(90%, 1600px);
+  }
+}
+
+@media screen and (min-width: 768px) {
+  html, body {
+    font-size: 106.25%;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  html, body {
+    font-size: 112.5%;
+  }
+}
+
+@media screen and (min-width: 1224px) {
+  html, body {
+    font-size: 118.75%;
+  }
+}
+
+@media screen and (min-width: 1824px) {
+  html, body {
+    font-size: 125.5%;
+  }
+}

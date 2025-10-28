@@ -1,0 +1,9 @@
+.skill-chip {
+    border: 1px solid var(--primary);
+    font-size: .75rem;
+    border-radius: 1rem;
+    width: fit-content;
+    padding: .4rem 1.5rem;
+    box-shadow: var(--box-shadow);
+    cursor: default;
+}
