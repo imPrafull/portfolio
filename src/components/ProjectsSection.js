@@ -46,7 +46,11 @@ export default function ProjectsSection() {
                             ))}
                         </ul>
                     </div>
-                    <p className={classes.footer}>Designed and Developed By Prafull Sakpal</p>
+                    <p className={classes.footer}>
+                        <p>Designed and Developed By Prafull Sakpal</p>
+                        <a href="mailto:prafullsakpal158@gmail.com" className={classes.contact}>prafullsakpal158@gmail.com</a>&nbsp; | &nbsp;
+                        <a href="tel:+919769865736" className={classes.contact}>+91 97698 65736</a>
+                    </p>
                 </Section>
             </Section>
         </>

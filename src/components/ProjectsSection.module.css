@@ -41,6 +41,11 @@
 .footer {
     text-align: center;
     padding-bottom: 1rem;
+
+    .contact {
+        display: inline-block;
+        padding-top: .25rem;
+    }
 }
 
 @media (max-width: 960px) {

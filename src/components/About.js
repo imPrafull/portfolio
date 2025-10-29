@@ -22,7 +22,7 @@ export default function About() {
                         <div className={classes.content}>
                             <h1>Hi! I am <span>Prafull Sakpal</span></h1>
                             <h3>I'm a Software Developer</h3>
-                            <p> Based in Mumbai, India, I enjoy creating digital experiences that are simple, useful, and enjoyable to use. I like turning ideas into smooth, responsive applications that work well across devices. With experience in both frontend and backend, I focus on building complete, reliable products from start to finish.
+                            <p> Based in Mumbai, India, with over 5 years of experience building responsive web and mobile applications. I specialize in Angular, React, Node.js, Ionic and MongoDB, building fast, reliable, and user-focused products. I am focused on designing and delivering seamless end-to-end solutions.
                             </p>
                             <Button onClick={openResume}>View Resume</Button>
                         </div>
