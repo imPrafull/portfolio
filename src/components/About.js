@@ -6,7 +6,7 @@ import profileImg from '../assets/profile-pic.jpg';
 export default function About() {
 
     function openResume() {
-        const resumeUrl = process.env.PUBLIC_URL + '/resume.pdf'
+        const resumeUrl = process.env.PUBLIC_URL + '/resume-prafull-sakpal.pdf'
         // const resumeUrl = 'https://drive.google.com/file/d/1WR-JkgMEflWxSZZvO6RiekCUBRq1IKbk/view?usp=drive_link'
         window.open(resumeUrl, '_blank');
     };

@@ -22,7 +22,7 @@ export const PROJECTS = [
         description: `A React web app that showcases a list of movies currently in theaters and upcoming releases, complete with detailed information. It pulls data from The Movie Database API to provide you with the latest movie details, helping you stay up-to-date with your film interests.`,
         skills: [ 'ReactJS', 'HTML', 'CSS' ],
         img: moviesNowImg,
-        demoLink: 'https://react-movies-158.netlify.app/',
+        demoLink: 'https://moviesnow1.netlify.app/',
         githubLink: 'https://github.com/imPrafull/React-Movie-App',
     },
     {
